@@ -1,0 +1,169 @@
+@media (max-width:1100px) {
+    body.disabledScroll {
+        overflow: hidden;
+    }
+
+    .icone {
+        display: block;
+    }
+
+    .icone.hide {
+        display: none;
+    }
+
+    .navBar .menu-list {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 400px;
+        background: linear-gradient(165deg, #DD9DDA, #F5D1B9);
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: all .3s ease;
+    }
+
+    .navBar .menu-list.active {
+        left: 0%;
+    }
+
+    .navBar .menu-list li {
+        margin-top: 45px;
+    }
+
+    .navBar .menu-list li a {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    /* Preloader starts */
+    #Preloader {
+        background-size: 35%;
+    }
+
+    section {
+        padding: 75px 0;
+    }
+
+    #header {
+        background-image: none;
+        background: linear-gradient(45deg, transparent, #f1c9becf);
+    }
+
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .header-text {
+        left: 20px;
+    }
+
+    /*-------------services-----------------*/
+    #services {
+        background: none;
+    }
+
+    .servise-title {
+        max-width: 345px;
+    }
+
+    .service-col {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*-------------Services Video-----------------*/
+    .video-left-col {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .video-left-col video {
+        width: 100%;
+    }
+
+    .video-right-col {
+        flex-basis: 100%;
+    }
+
+    .video-image,
+    iframe {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .video-player {
+        width: 98%;
+    }
+
+    /*-------------Why Us-----------------*/
+    .why-us-col {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*-------------Projects-----------------*/
+    #projects {
+        background: none;
+    }
+
+    .priject-left-col {
+        flex-basis: 100%;
+    }
+
+    .projects-text {
+        margin-left: 20px;
+    }
+
+    .projects-right-col {
+        flex-basis: 100%;
+    }
+
+    /*-------------Staty Updata-----------------*/
+    #starUpdate {
+        background: none;
+    }
+
+    .email-box input {
+        width: 65%;
+    }
+
+    /*-------------Happy-Clint-----------------*/
+    #happyClint {
+        margin-bottom: -20px !important;
+    }
+
+    .happyClint-row {
+        box-shadow: none;
+    }
+
+    .counter-text {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*-------------Footer-----------------*/
+    .footer-row {
+        padding: 0 0;
+    }
+
+    .footer-left-col {
+        flex-basis: 100%;
+        margin-left: 20px;
+    }
+
+    .footer-right-col {
+        flex-basis: 100%;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    .footer-contact-item {
+        text-align: left;
+    }
+}
